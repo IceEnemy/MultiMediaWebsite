@@ -1,6 +1,7 @@
 <script>
     import CreditBox from '$lib/CreditBox.svelte';
     import { goto } from '$app/navigation';
+    import { page } from '$app/stores';
     import gerSelfPhoto from '$lib/assets/gerSelfPhoto.jpg';
     import belleSelfPhoto from '$lib/assets/belleSelfPhoto.jpg';
     import celSelfPhoto from '$lib/assets/celSelfPhoto.jpg';
@@ -56,8 +57,16 @@
     }
 
     function watchVideo() {
-        goto('/videoPlayer');
-    
+
+        const currentUrl = $page.path ? $page.path : '';
+
+        if (!currentUrl){
+            goto('/videoPlayer');
+        }
+        else{
+            window.location = `${currentUrl}/videoPlayer`;
+        }
+        
     }
 </script>
 
