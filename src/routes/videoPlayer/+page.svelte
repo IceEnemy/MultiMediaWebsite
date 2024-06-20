@@ -1,7 +1,8 @@
 <script>
     import { goto } from '$app/navigation';
+    import { base } from '$app/paths';
     function goBack() {
-        goto('/');
+        goto(`${base}/`);
     }
 </script>
 

@@ -7,6 +7,7 @@
     import norSelfPhoto from '$lib/assets/norSelfPhoto.jpg';
     import raymSelfPhoto from '$lib/assets/raymSelfPhoto.jpg';
     import mulmedTrailer from '$lib/assets/Mulmed_trailer.mov';
+    import { base } from '$app/paths';
 
 
     let credits = [
@@ -56,7 +57,7 @@
     }
 
     function watchVideo() {
-        goto('/videoPlayer');
+        goto(`${base}/videoPlayer`);
     }
 </script>
 
