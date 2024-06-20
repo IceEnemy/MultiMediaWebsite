@@ -7,29 +7,30 @@
         {
             name: "Julius Gerald Pho",
             roles: ["Scriptwriter", "Cameraman"],
-            image: "./src/lib/assets/gerSelfPhoto.jpg"
+            image: "/assets/gerSelfPhoto.jpg"
         },
         {
             name: "Ignatia Christabelle Amadea Hardjono",
             roles: ["Scriptwriter", "Video Editor", "Main Actress"],
-            image: "./src/lib/assets/belleSelfPhoto.jpg"
+            image: "/assets/belleSelfPhoto.jpg"
         },
         {
             name: "Celina Chintya",
             roles: ["Scriptwriter", "Actress (Chef on TV)"],
-            image: "./src/lib/assets/celSelfPhoto.jpg"
+            image: "/assets/celSelfPhoto.jpg"
         },
         {
             name: "Norberth Erlin Putra",
             roles: ["Scriptwriter", "Prop Provider", "Website Developer"],
-            image: "./src/lib/assets/norSelfPhoto.jpg"
+            image: "/assets/norSelfPhoto.jpg"
         },
         {
             name: "Raymond Willy Tanumihardja",
             roles: ["Prop Provider", "Main Actor"],
-            image: "./src/lib/assets/raymSelfPhoto.jpg"
+            image: "/assets/raymSelfPhoto.jpg"
         }
     ];
+
 
     let isMuted = true;
 
@@ -75,7 +76,7 @@
             <span class="{isMuted ? "octicon--mute-16" : "octicon--unmute-16"}"></span>
         </button>
     </div>
-    <video class="trailerVideo" src="./src/lib/assets/Mulmed_trailer.mov" muted loop autoplay></video>
+    <video class="trailerVideo" src="/assets/Mulmed_trailer.mov" muted loop autoplay></video>
 </div>
 
 <div class="credits">
@@ -155,7 +156,7 @@
 
     .movieTrailer {
         width: calc(100% - 40px);
-        background: url('$lib/assets/ThumbnailImg.jpg') no-repeat center center;
+        background: url('/assets/ThumbnailImg.jpg') no-repeat center center;
         background-size: cover;
         height: calc(100vh - 40px);
         margin: 0;
