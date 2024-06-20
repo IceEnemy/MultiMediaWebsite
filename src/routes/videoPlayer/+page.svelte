@@ -1,19 +1,7 @@
 <script>
     import { goto } from '$app/navigation';
-    import { page } from '$app/stores';
-
     function goBack() {
-        // Navigate back to the previous page
-        const currentUrl = $page.path ? $page.path : '';
-
-        if (!currentUrl) {
-            goto('/');
-        }
-        else{
-            goto('/');
-        }
-
-        
+        goto('/');
     }
 </script>
 
