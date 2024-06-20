@@ -14,4 +14,3 @@ node_modules
 /packages/*/*.css
 /packages/*/*.map
 /public
-*.mov
