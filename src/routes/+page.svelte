@@ -75,7 +75,7 @@
             <span class="{isMuted ? "octicon--mute-16" : "octicon--unmute-16"}"></span>
         </button>
     </div>
-    <video class="trailerVideo" src="src/lib/assets/Mulmed trailer.mov" muted loop autoplay></video>
+    <video class="trailerVideo" src="src/lib/assets/Mulmed_trailer.mov" muted loop autoplay></video>
 </div>
 
 <div class="credits">
