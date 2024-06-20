@@ -1,33 +1,39 @@
 <script>
     import CreditBox from '$lib/CreditBox.svelte';
     import { goto } from '$app/navigation';
+    import gerSelfPhoto from '$lib/assets/gerSelfPhoto.jpg';
+    import belleSelfPhoto from '$lib/assets/belleSelfPhoto.jpg';
+    import celSelfPhoto from '$lib/assets/celSelfPhoto.jpg';
+    import norSelfPhoto from '$lib/assets/norSelfPhoto.jpg';
+    import raymSelfPhoto from '$lib/assets/raymSelfPhoto.jpg';
+    import mulmedTrailer from '$lib/assets/Mulmed_trailer.mov';
 
 
     let credits = [
         {
             name: "Julius Gerald Pho",
             roles: ["Scriptwriter", "Cameraman"],
-            image: "src/lib/assets/gerSelfPhoto.jpg"
+            image: gerSelfPhoto
         },
         {
             name: "Ignatia Christabelle Amadea Hardjono",
             roles: ["Scriptwriter", "Video Editor", "Main Actress"],
-            image: "src/lib/assets/belleSelfPhoto.jpg"
+            image: belleSelfPhoto
         },
         {
             name: "Celina Chintya",
             roles: ["Scriptwriter", "Actress (Chef on TV)"],
-            image: "src/lib/assets/celSelfPhoto.jpg"
+            image: celSelfPhoto
         },
         {
             name: "Norberth Erlin Putra",
             roles: ["Scriptwriter", "Prop Provider", "Website Developer"],
-            image: "src/lib/assets/norSelfPhoto.jpg"
+            image: norSelfPhoto
         },
         {
             name: "Raymond Willy Tanumihardja",
             roles: ["Prop Provider", "Main Actor"],
-            image: "src/lib/assets/raymSelfPhoto.jpg"
+            image: raymSelfPhoto
         }
     ];
 
@@ -75,7 +81,7 @@
             <span class="{isMuted ? "octicon--mute-16" : "octicon--unmute-16"}"></span>
         </button>
     </div>
-    <video class="trailerVideo" src="src/lib/assets/Mulmed_trailer.mov" muted loop autoplay></video>
+    <video class="trailerVideo" src={mulmedTrailer} muted loop autoplay></video>
 </div>
 
 <div class="credits">
