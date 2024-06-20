@@ -67,7 +67,7 @@
     .roles {
         color: transparent;
         transition: color 0.2s;
-        font-size: 2.5rem;
+        font-size: 1.5rem;
         
     }
 

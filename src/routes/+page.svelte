@@ -7,27 +7,27 @@
         {
             name: "Julius Gerald Pho",
             roles: ["Scriptwriter", "Cameraman"],
-            image: "src/lib/assets/gerSelfPhoto.jpg"
+            image: "./src/lib/assets/gerSelfPhoto.jpg"
         },
         {
             name: "Ignatia Christabelle Amadea Hardjono",
             roles: ["Scriptwriter", "Video Editor", "Main Actress"],
-            image: "src/lib/assets/belleSelfPhoto.jpg"
+            image: "./src/lib/assets/belleSelfPhoto.jpg"
         },
         {
             name: "Celina Chintya",
             roles: ["Scriptwriter", "Actress (Chef on TV)"],
-            image: "src/lib/assets/celSelfPhoto.jpg"
+            image: "./src/lib/assets/celSelfPhoto.jpg"
         },
         {
             name: "Norberth Erlin Putra",
             roles: ["Scriptwriter", "Prop Provider", "Website Developer"],
-            image: "src/lib/assets/norSelfPhoto.jpg"
+            image: "./src/lib/assets/norSelfPhoto.jpg"
         },
         {
             name: "Raymond Willy Tanumihardja",
             roles: ["Prop Provider", "Main Actor"],
-            image: "src/lib/assets/raymSelfPhoto.jpg"
+            image: "./src/lib/assets/raymSelfPhoto.jpg"
         }
     ];
 
@@ -75,7 +75,7 @@
             <span class="{isMuted ? "octicon--mute-16" : "octicon--unmute-16"}"></span>
         </button>
     </div>
-    <video class="trailerVideo" src="src/lib/assets/Mulmed_trailer.mov" muted loop autoplay></video>
+    <video class="trailerVideo" src="./src/lib/assets/Mulmed_trailer.mov" muted loop autoplay></video>
 </div>
 
 <div class="credits">
