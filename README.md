@@ -1,17 +1,18 @@
-# create-svelte
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+## How to Clone the repository
 
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
+make sure you have svelte and node in your workstation!
 
 ```bash
-# create a new project in the current directory
-npm create svelte@latest
+git clone https://github.com/IceEnemy/nook.git
+```
 
-# create a new project in my-app
-npm create svelte@latest my-app
+after cloning the project, make sure to install all dependencies!
+
+```bash
+cd project-directory
+
+npm install
 ```
 
 ## Developing
@@ -35,4 +36,3 @@ npm run build
 
 You can preview the production build with `npm run preview`.
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
